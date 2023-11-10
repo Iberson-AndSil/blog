@@ -1,3 +1,15 @@
+.header {
+    transition: 0.7s;
+}
+
+.header.abajo{
+    padding: 15px 20px;
+}
+
+.header.abajo .cambia{
+    color: white;
+}
+
 @media screen and (max-width: 768px) {
 
    .nav {
@@ -8,5 +20,6 @@
     .nav.visible {
         opacity: 1;
         visibility: visible;
+        position: fixed;
     }
 }
