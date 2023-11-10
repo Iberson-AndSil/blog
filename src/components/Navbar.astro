@@ -3,10 +3,10 @@ import Links from "./Links.astro";
 import Networks from "./Networks.astro";
 ---
 
-<header class="flex flex-row p-8 bg-[#ececec] items-center justify-between">
+<header class="flex flex-row p-8 items-center justify-between fixed w-full header text-white">
   <Networks />
   <button id="abrir" class="hidden max-[768px]:block max-[768px]:text-xl cursor-pointer"><i class="bi bi-list"></i></button>
-  <nav class="flex max-[768px]:flex-col max-[768px]:text-white max-[768px]:p-8 max-[768px]:bg-[#1c1c1c] max-[768px]:items-end 
+  <nav class="flex max-[768px]:flex-col max-[768px]:text-black max-[768px]:p-7 max-[768px]:bg-white max-[768px]:items-end 
     max-[768px]:gap-4 max-[768px]:top-0 max-[768px]:right-0 max-[768px]:bottom-0 max-[768px]:absolute nav" id="nav">
     <button class="hidden max-[768px]:block max-[768px]:text-xl cursor-pointer" id="cerrar"><i class="bi bi-x"></i></button>
     <Links />
