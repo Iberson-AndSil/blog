@@ -1,0 +1,4 @@
+.image-presentation {
+    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),  url("../../assets/img/image-2.jpg") no-repeat center center fixed;
+	background-size:cover;
+}
