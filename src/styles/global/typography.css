@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
+.text-name {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.text-job {
+    font-family: 'Signika Negative', sans-serif;
+}
