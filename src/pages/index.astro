@@ -3,10 +3,26 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 <BaseLayout>
 <section class="flex md:items-center justify-center image-presentation min-h-[100vh]">
-    <h1 class="text-white max-[768px]:pt-44 text-center"> <span class="text-name md:text-6xl max-[768px]:text-4xl">IBERSON SILVA CH.</span><br>
-        <span class="md:text-2xl max-[768px]:text-1xl text-job">Software Developer</span>
+    <h1 class="text-white max-md:pt-44 text-center"> <span class="text-name min-[769px]:text-6xl max-[768px]:text-4xl">IBERSON SILVA CH.</span><br>
+        <span class="min-[769px]:text-2xl max-md:text-1xl text-job">Software Developer</span>
     </h1>
-
 </section>
-
+<section class="bg-[#818285] flex max-[640px]:flex-col justify-center align-middle items-center"> 
+    <div class="image-profile min-[769px]:w-96 md-[769px]:h-[26rem] min-[640px]:w-80 max-[640px]:w-72 
+    max-[768px]:h-[20rem] mx-2"></div>
+    <div class="text-white max-[640px]:w-72 w-96 text-justify mx-1">
+        <h1 class="text-name md:text-5xl max-[768px]:text-3xl text-center pb-4 pt-3">Sobre Mí</h1>
+        <p class="text-justify">
+        Soy Iberson, estudiante de Ingeniería de Informática y Sistemas
+        en la Universidad Nacional Agraria de la Selva. Mi formación abarca
+        el desarrollo de software en todas las fases del ciclo, así como 
+        conocimientos básicos en Administración de Redes y Gestión de Procesos. 
+        Actualmente, me encuentro desempeñándome en el mundo del desarrollo 
+        web, aplicando mis habilidades en el Frontend. Además, cuento con 
+        conocimientos de nivel básico en lenguajes como Java, Python, C++, y 
+        JavaScript. Mi objetivo es seguir ampliando mis habilidades y 
+        contribuir de manera significativa a proyectos innovadores en el 
+        campo de la informática.
+    </p></div>
+</section>
 </BaseLayout>
