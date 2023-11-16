@@ -1,4 +1,5 @@
 ---
+import Footer from "../components/Footer.astro";
 import Navigation from "../components/Navbar.astro";
 import '../styles/style.css';
 ---
@@ -15,6 +16,7 @@ import '../styles/style.css';
   <body>
     <Navigation />
     <slot />
+    <Footer />
     <script>
       import "../scripts/hamburger.js";
       import "../scripts/navbar.js";
