@@ -1,6 +1,7 @@
 .image-presentation {
     min-height: 100vh;
-    min-width: auto;
+    /* min-width: auto; */
+    width: 100%;
     background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),  url("../../assets/img/image-2.jpg") no-repeat center center;
 	background-size:cover;
 }
