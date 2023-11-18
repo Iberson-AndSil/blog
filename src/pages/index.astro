@@ -1,17 +1,19 @@
 ---
+import Button from "../components/Button.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-const { frontmatter } = Astro.props;
+const label = "Currículum";
+const link = "#";
 ---
 <BaseLayout>
-<section class="flex md:items-center justify-center image-presentation">
-    <h1 class="text-white max-md:pt-44 text-center"> <span class="text-name min-[769px]:text-6xl max-[768px]:text-4xl">IBERSON SILVA CH.</span><br>
+<section class="flex items-center justify-center image-presentation">
+    <h1 class="text-white text-center"> <span class="text-name min-[769px]:text-6xl max-[768px]:text-4xl">IBERSON SILVA CH.</span><br>
         <span class="min-[769px]:text-2xl max-md:text-1xl text-job">Software Developer</span>
     </h1>
 </section>
 <section class="bg-[#818285] flex max-[640px]:flex-col justify-center align-middle items-center"> 
     <div class="image-profile min-[769px]:w-96 md-[769px]:h-[26rem] min-[640px]:w-80 max-[640px]:w-72 
     max-[768px]:h-[20rem] mx-2"></div>
-    <div class="text-white max-[640px]:w-72 w-96 text-justify mx-1">
+    <div class="flex flex-col text-white max-[640px]:w-72 w-96 mx-1">
         <h1 class="text-name md:text-5xl max-[768px]:text-3xl text-center pb-4 pt-3">Sobre Mí</h1>
         <p class="text-justify">
             Soy Iberson, estudiante de Ingeniería de Informática y Sistemas en la Universidad Nacional 
@@ -21,6 +23,8 @@ const { frontmatter } = Astro.props;
             habilidades en el Frontend. Además, cuento con conocimientos de nivel básico en lenguajes 
             como Java, Python, C++, y JavaScript. Mi objetivo es seguir ampliando mis habilidades y 
             contribuir de manera significativa a proyectos innovadores en el campo de la informática.
-    </p></div>
+        </p>
+        <div class="flex justify-center"><Button label = "Currículum" link = "#"/></div>
+    </div>
 </section>
 </BaseLayout>
