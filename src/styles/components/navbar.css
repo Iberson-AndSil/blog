@@ -4,10 +4,12 @@
 
 .header.abajo{
     padding: 15px 20px;
+    transition: 0.7s;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 
 .header.abajo .cambia{
-    color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 
 @media screen and (max-width: 768px) {
@@ -21,5 +23,8 @@
         opacity: 1;
         visibility: visible;
         position: fixed;
+    }
+    .header.abajo .cambia{
+        color: black;
     }
 }
