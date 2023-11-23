@@ -1,37 +1,43 @@
 ---
-
+const links = {
+  facebook: "https://www.facebook.com/iberson.silvachumacero",
+  twitterx: "https://twitter.com/IbersonAndree",
+  instagram: "https://www.instagram.com/ibersonsilva/",
+  youtube: "https://www.youtube.com/channel/UCofBdY_S4-kgmXpYCKrSvwA",
+  linkendin: "https://www.linkedin.com/feed/"
+}
 ---
 
 <ul class="flex flex-row">
   <li>
-    <a href="">
+    <a href={links.facebook}>
       <svg class="h-5 w-5 max-md:mx-3 md:mx-4">
         <use xlink:href="#icon-facebook"> </use>
       </svg>
     </a>
     <li>
-      <a href="">
+      <a href={links.twitterx}>
         <svg class="h-5 w-5 max-md:mx-3 md:mx-4">
           <use xlink:href="#icon-twitter"></use>
         </svg>
       </a>
     </li>
     <li>
-      <a href="">
+      <a href={links.instagram}>
         <svg class="h-5 w-5 max-md:mx-3 md:mx-4">
           <use xlink:href="#icon-instagram"></use>
         </svg>
       </a>
     </li>
     <li>
-      <a href="">
+      <a href={links.youtube}>
         <svg class="h-5 w-5 max-md:mx-3 md:mx-4">
           <use xlink:href="#icon-youtube"></use>
         </svg>
       </a>
     </li>
     <li>
-      <a href="">
+      <a href={links.linkendin}>
         <svg class="h-5 w-5 max-md:mx-3 md:mx-4">
           <use xlink:href="#icon-linkendin"></use>
         </svg>
