@@ -1,23 +1,24 @@
 ---
 import Button from "../components/Button.astro";
+import Form from "../components/Form.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 const label = "Currículum";
 const link = "#";
-const donwload = "https://drive.google.com/file/d/16bTQCml8V-Ln1KY33fmVQALSPPTHNp9l/view?usp=sharing";
+const donwload = "https://drive.google.com/file/d/10dEK_m-zieQmrKhYQDrFs-rEodPJUsMS/view?usp=sharing";
 ---
 <BaseLayout>
-<section class="flex items-center justify-center image-presentation">
+<section class="flex items-center justify-center image-presentation" id="inicio">
     <h1 class="text-white text-center"> <span class="text-name min-[769px]:text-6xl max-[768px]:text-4xl">IBERSON SILVA CH.</span><br>
         <span class="min-[769px]:text-2xl max-md:text-1xl text-job">Software Developer</span>
     </h1>
 </section>
-<section class="bg-[#818285] flex max-[640px]:flex-col justify-center align-middle items-center"> 
+<section class="bg-[#818285] flex max-[640px]:flex-col justify-center align-middle items-center" id="sobreMi"> 
     <div class="image-profile min-[769px]:w-96 md-[769px]:h-[26rem] min-[640px]:w-80 max-[640px]:w-72 
     max-[768px]:h-[20rem] mx-2"></div>
     <div class="flex flex-col text-white max-[640px]:w-72 w-96 mx-1">
         <h1 class="text-name md:text-5xl max-[768px]:text-3xl text-center pb-4 pt-3">Sobre Mí</h1>
         <p class="text-justify">
-            Soy Iberson, estudiante de Ingeniería de Informática y Sistemas en la Universidad Nacional 
+            Soy Iberson, estudiante en la carrera profesional de Ingeniería de Informática y Sistemas en la Universidad Nacional 
             Agraria de la Selva. Mi formación abarca el desarrollo de software en todas las fases del 
             ciclo, así como conocimientos básicos en Administración de Redes y Gestión de Procesos. 
             Actualmente, me encuentro desempeñándome en el mundo del desarrollo web, aplicando mis 
@@ -28,6 +29,21 @@ const donwload = "https://drive.google.com/file/d/16bTQCml8V-Ln1KY33fmVQALSPPTHN
         <div class="flex justify-center">
             <Button label = "Currículum" link = {donwload}/>
         </div>
+    </div>
+</section>
+<section class="image-form flex items-center justify-center flex-col" id="contacto">
+    <h1 class="text-name md:text-5xl max-[768px]:text-3xl text-center pb-4 pt-3 text-white">Contacto</h1>
+    <div class="flex max-[640px]:flex-col min-sm:flex-row justify-center text-center text-white">
+        <div class="min-[769px]:w-96 min-[640px]:w-80 max-[640px]:w-auto m-2 text-start max-sm:mb-10">
+            <h1 class="min-[769px]:text-3xl max-md:text-2xl text-name mb-7">Info</h1>
+            <p class="mt-3">Email: <br></p>
+            <p class="text-center">iberson-silva@outlook.com <br></p>
+            <p class="mt-3">Website URL: <br></p>
+            <p class="text-center">https://silvaiberson03.netlify.app/ <br></p>
+            <p class="mt-3">Tel:</p>
+            <p class="text-center">+51 900661606 <br></p>
+        </div>
+        <Form />
     </div>
 </section>
 </BaseLayout>
