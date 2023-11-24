@@ -12,7 +12,7 @@
                 url("../../assets/img/profile.jpg");
     background-size: cover;
     /* background-repeat: no-repeat; */
-    background-position: center;
+    /* background-position: center; */
 } 
 
 .image-form {
