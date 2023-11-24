@@ -11,17 +11,17 @@
 
 .image-form {
     min-height: 80vh;
-    background: linear-gradient(rgba(63, 63, 70, 0.5), rgba(63, 63, 70, 0.5)),  url("../../assets/img/image-3.jpg") no-repeat center center fixed;
-	background-size:cover;
-} 
+    background: linear-gradient(rgba(63, 63, 70, 0.5), rgba(63, 63, 70, 0.5)),
+                url("../../assets/img/image-3.jpg") center/cover no-repeat fixed;
+}
 
 @media screen and (max-width: 768px) {
 
     .image-presentation {
-        background-attachment: local;
+        background-attachment: scroll;
     }
 
     .image-form {
-        background-attachment: local;
+        background-attachment: scroll;
     }
  }
