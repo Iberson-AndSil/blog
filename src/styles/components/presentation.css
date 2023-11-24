@@ -11,9 +11,12 @@
 
 .image-form {
     min-height: 80vh;
-    /* background: linear-gradient(rgba(63, 63, 70, 0.5), rgba(63, 63, 70, 0.5)),  url("../../assets/img/image-3.jpg") no-repeat center center fixed; */
-	background-size:cover;
-} 
+    background: linear-gradient(rgba(63, 63, 70, 0.5), rgba(63, 63, 70, 0.5)),
+                url("../../assets/img/image-3.jpg") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
 /* 
 @media screen and (max-width: 768px) {
 
