@@ -11,7 +11,7 @@
     background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),  
                 url("../../assets/img/profile.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: center;
 } 
 
