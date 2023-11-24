@@ -1,17 +1,17 @@
 .image-presentation {
     min-height: 100vh;
-    background: linear-gradient(rgba(63, 63, 70, 0.5), rgba(63, 63, 70, 0.5)),  url("../../assets/img/image-2.jpg") no-repeat center center fixed;
+    /* background: linear-gradient(rgba(63, 63, 70, 0.5), rgba(63, 63, 70, 0.5)),  url("../../assets/img/image-2.jpg") no-repeat center center fixed; */
 	background-size:cover;
 }
 
 .image-profile {
-    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),  url("../../assets/img/profile.jpg") no-repeat center center;
+    /* background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),  url("../../assets/img/profile.jpg") no-repeat center center; */
 	background-size:cover;
 } 
 
 .image-form {
     min-height: 80vh;
-    background: linear-gradient(rgba(63, 63, 70, 0.5), rgba(63, 63, 70, 0.5)),  url("../../assets/img/image-3.jpg") no-repeat center center fixed;
+    /* background: linear-gradient(rgba(63, 63, 70, 0.5), rgba(63, 63, 70, 0.5)),  url("../../assets/img/image-3.jpg") no-repeat center center fixed; */
 	background-size:cover;
 } 
 /* 
