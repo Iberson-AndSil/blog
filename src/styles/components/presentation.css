@@ -18,10 +18,10 @@
 @media screen and (max-width: 768px) {
 
     .image-presentation {
-        background-attachment: scroll;
+        background-attachment: local;
     }
 
     .image-form {
-        background-attachment: scroll;
+        background-attachment: local;
     }
  }
