@@ -1,6 +1,6 @@
 .image-presentation {
     min-height: 100vh;
-    background: linear-gradient(rgba(63, 63, 70, 0.5), rgba(63, 63, 70, 0.5)),  
+    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),
                 url("../../assets/img/image-2.jpg") fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,13 +11,13 @@
     background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),  
                 url("../../assets/img/profile.jpg");
     background-size: cover;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-position: center; 
 } 
 
 .image-form {
     min-height: 80vh;
-    background: linear-gradient(rgba(63, 63, 70, 0.5), rgba(63, 63, 70, 0.5)),
+    background:  linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),
                 url("../../assets/img/image-3.jpg") fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,9 +32,6 @@
     }
 
     .image-form {
-        background-attachment: scroll;
-    }
-    .image-profile {
         background-attachment: scroll;
     }
  }
