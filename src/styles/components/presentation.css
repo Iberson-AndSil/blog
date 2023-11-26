@@ -8,13 +8,11 @@
 }
 
 .image-profile {
-    min-height: auto;
-    min-width: auto;
     background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),  
                 url("../../assets/img/profile.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-position: center; 
 } 
 
 .image-form {
@@ -34,6 +32,9 @@
     }
 
     .image-form {
+        background-attachment: scroll;
+    }
+    .image-profile {
         background-attachment: scroll;
     }
  }
