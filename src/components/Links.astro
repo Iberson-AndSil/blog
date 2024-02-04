@@ -1,11 +1,29 @@
 ---
+import Link from "./Link.astro"
 
+const label = {
+    start: "Inicio",
+    sobremi: "Sobre mí",
+    proyectos: "Proyectos",
+    curriculum: "Currículum",
+    contact: "Contacto",
+    blog: "Blog"
+}
+
+const link = {
+    start: "#inicio",
+    sobremi: "#sobreMi",
+    proyectos: "#",
+    curriculum: "https://drive.google.com/file/d/10dEK_m-zieQmrKhYQDrFs-rEodPJUsMS/view?usp=sharing",
+    contact: "#contacto",
+    blog: "#"
+}
 ---
 <ul class="flex flex-row max-[768px]:flex-col text-sm">
-    <li class="md-[769px]:pr-3 pl-3 hover:underline hover:underline-offset-1"><a href="#inicio">Inicio</a></li>
-    <li class="md-[769px]:pr-3 pl-3 hover:underline hover:underline-offset-1"><a href="#sobreMi">Sobre mí</a></li>
-    <li class="md-[769px]:pr-3 pl-3 hover:underline hover:underline-offset-1"><a href="#">Proyectos</a></li>
-    <li class="md-[769px]:pr-3 pl-3 hover:underline hover:underline-offset-1"><a href="https://drive.google.com/file/d/10dEK_m-zieQmrKhYQDrFs-rEodPJUsMS/view?usp=sharing">Currículum</a></li>
-    <li class="md-[769px]:pr-3 pl-3 hover:underline hover:underline-offset-1"><a href="#contacto">Contacto</a></li>
-    <li class="md-[769px]:pr-3 pl-3 hover:underline hover:underline-offset-1"><a href="#">Blog</a></li>
+    <Link link={link.start} label={label.start}/>
+    <Link link={link.sobremi} label={label.sobremi}/>
+    <Link link={link.proyectos} label={label.proyectos}/>
+    <Link link={link.curriculum} label={label.curriculum}/>
+    <Link link={link.contact} label={label.contact}/>
+    <Link link={link.blog} label={label.blog}/>
 </ul>

@@ -1,20 +1,20 @@
 ---
 import Button from "./Button.astro";
+import Input from "./Input.astro";
+
+const labelInput = {
+  name: "Nombre",
+  lastname: "Apellido",
+  email: "Email",
+  asunto: "Asunto"
+}
 ---
 
 <form class="grid grid-cols-2 min-[769px]:w-96 min-[640px]:w-80 max-[640px]:w-72 gap-4" action="">
-  <label class="max-[768px]:col-span-2 max-[768px]:flex max-[768px]:flex-col text-start" class="" for="">Nombre
-    <input class="outline-none text-black h-8 p-1 hover:border-zinc-700 hover:border-2" type="text" name="name" id="" />
-  </label>
-  <label class="max-[768px]:col-span-2 max-[768px]:flex max-[768px]:flex-col text-start" for="">Apellido
-    <input class="outline-none text-black h-8 p-1 hover:border-zinc-700 hover:border-2" type="text" name="name" id="" />
-  </label>
-  <label class="max-[768px]:col-span-2 max-[768px]:flex max-[768px]:flex-col text-start" for="">Email
-    <input class="outline-none text-black h-8 p-1 hover:border-zinc-700 hover:border-2" type="text" name="name" id="" />
-  </label>
-  <label class="max-[768px]:col-span-2 max-[768px]:flex max-[768px]:flex-col text-start" for="">Asunto
-    <input class="outline-none text-black h-8 p-1 hover:border-zinc-700 hover:border-2" type="text" name="name" id="" />
-  </label>
+  <Input label={labelInput.name}/>
+  <Input label={labelInput.lastname}/>
+  <Input label={labelInput.email}/>
+  <Input label={labelInput.asunto}/>
   <label class="col-span-2 flex flex-col text-start" for="">Mensaje
     <input class="outline-none text-black h-24 p-1 hover:border-zinc-700 hover:border-2" type="text" name="name" id="" />
   </label>
